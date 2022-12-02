@@ -1,0 +1,11 @@
+@use "./partials/variables" as *;
+@import "bootstrap/scss/bootstrap";
+
+
+$color-primary: blue;
+
+
+.my-text-primary{
+    color: $color-primary;
+    font-size: 2rem;
+}
